@@ -1,0 +1,7 @@
+node_modules/
+.nuxt/
+.next/
+
+0-getting-started/
+
+.DS_Store
