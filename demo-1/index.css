@@ -1,0 +1,70 @@
+.container {
+  opacity: 0;
+  display: grid;
+  grid-template-columns: auto 30%;
+  font-family: 'Arial';
+  height: 100%;
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  width: 70%;
+  height: 100vh;
+  margin-left: 20%;
+}
+main h1 {
+  font-size: 7em;
+  margin: 2rem 0 1rem;
+  position: relative;
+}
+main h1 span {
+  display: block;
+}
+main p {
+  width: 100%;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+main a {
+  width: 250px;
+  display: inline-block;
+  background: #005df2;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+span:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 1;
+  transform-origin: 100% 0;
+}
+
+aside {
+  background: url('https://corp.raksul.com/wp-content/themes/rc/images/page-home/BackgroundA.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  height: 100vh;
+}
+aside img {
+  width: 34%;
+  position: absolute;
+  right: 13%;
+  top: 20%;
+  border-radius: 100%;
+}

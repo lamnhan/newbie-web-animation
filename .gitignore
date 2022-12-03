@@ -1,0 +1,4 @@
+node_modules/
+.nuxt/
+demo-0/
+.DS_Store
