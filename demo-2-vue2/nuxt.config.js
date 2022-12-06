@@ -19,7 +19,14 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap' },
-    ]
+    ],
+    script: [
+      { src: '/js/gsap.min.js', async: true, defer: true },
+      { src: '/js/MorphSVGPlugin3.js', async: true, defer: true },
+      { src: '/js/DrawSVGPlugin3.js', async: true, defer: true },
+      { src: '/js/ScrambleTextPlugin3.js', async: true, defer: true },
+      { src: '/js/index.js', async: true, defer: true },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -28,12 +35,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    '@/assets/js/gsap.min.js',
-    '@/assets/js/MorphSVGPlugin3.js',
-    '@/assets/js/DrawSVGPlugin3.js',
-    '@/assets/js/ScrambleTextPlugin3.js'
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

@@ -1,4 +1,7 @@
 node_modules/
 .nuxt/
-demo-0/
+.next/
+
+0-getting-started/
+
 .DS_Store
