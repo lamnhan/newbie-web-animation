@@ -1,0 +1,47 @@
+.main {
+  --color-light: #ffffff;
+  --color-medium: #777777;
+  --color-dark: #333333;
+  --color-raksul-C: #00A0E8;
+  --color-raksul-M: #E4007E;
+  --color-raksul-Y: #FEF300;
+  --color-hacobell: #0076DD;
+  --color-novasell: #00aa15;
+  --color-josys: #F8761F;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.raksul, .hacobell, .novasell, .josys {
+  opacity: 0;
+
+  &.icon {
+    visibility: hidden;
+  }
+  &.homepageBG {
+    opacity: 1;
+  }
+  &.button {
+    opacity: .3;
+  }
+}
+.raksul.icon {
+  visibility: visible;
+}
+
+.buttons > *,
+.arrows > * {
+  cursor: pointer;
+}
+
+.arrows > * {
+  opacity: .5;
+  transition: opacity .5s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}

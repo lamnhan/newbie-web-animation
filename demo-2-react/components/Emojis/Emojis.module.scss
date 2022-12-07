@@ -1,0 +1,21 @@
+.reactionsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+
+  li {
+    margin-left: 1rem;
+  }
+}
+
+.likeContainer,
+.loveContainer,
+.hahaContainer {
+
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+}
