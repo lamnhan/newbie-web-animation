@@ -5,8 +5,7 @@ import Script from 'next/script'
 export default function Head() {
   return (
     <>
-      <title>Foobutt</title>
-      <meta name="description" content="Intergalactic social network." />
+      <title>SVG Demo (React) - Learn GSAP</title>
       <link 
         // @ts-ignore
         precedence="default"

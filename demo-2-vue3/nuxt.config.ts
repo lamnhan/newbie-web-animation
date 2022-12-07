@@ -5,12 +5,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      title: 'SVG Demo (Vue 3) - Learn GSAP',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'Foobutt',
-      meta: [
-        { name: 'description', content: 'Intergalactic social network.' }
-      ],
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap' },
       ],
